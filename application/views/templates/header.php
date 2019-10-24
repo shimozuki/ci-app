@@ -1,19 +1,21 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="<?= base_url(); ?>assets/css/bootstrap.min.css">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- My CSS -->
-        <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/bootstrap.min.css">
 
-        <title><?= $judul; ?></title>
-    </head>
-    <body>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
+
+    <title><?= $judul; ?></title>
+</head>
+
+<body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">CI App</a>
@@ -22,9 +24,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                <a class="nav-item nav-link" href="<?= base_url(); ?>">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="<?= base_url(); ?>mahasiswa">Mahasiswa</a>
-                <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="<?= base_url(); ?>">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="<?= base_url(); ?>mahasiswa">Mahasiswa</a>
+                    <a class="nav-item nav-link" href="<?= base_url(); ?>peoples">Peoples</a>
+                    <a class="nav-item nav-link" href="#">About</a>
                 </div>
             </div>
         </div>
